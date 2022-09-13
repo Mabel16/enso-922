@@ -14,7 +14,7 @@ public class Subtracao {
             double result = n1 - n2;
             return result;
         } catch (NumberFormatException nfe) {
-            throw new BadRequestException("Operador inválido.")
+            throw new BadRequestException("Operador inválido.");
         }
     }
 }
