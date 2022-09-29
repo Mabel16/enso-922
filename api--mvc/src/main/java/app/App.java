@@ -6,7 +6,12 @@ public class App extends Jooby {
 
   {
 
-    get("/", ctx -> "Welcome to Jooby!");
+    mvc(new Controller());
+    mvc(new Soma());
+    mvc(new Divisao());
+    mvc(new Subtracao());
+    mvc(new Multiplicacao());
+
   }
 
   public static void main(final String[] args) {
