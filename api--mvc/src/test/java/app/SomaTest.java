@@ -21,7 +21,6 @@ public class SomaTest {
         Soma soma = new Soma();
         double resultado = soma.calcula("7.5", "3");
         assertEquals(10.5, resultado);
-
     }
     
 }
