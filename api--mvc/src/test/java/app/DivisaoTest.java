@@ -12,7 +12,6 @@ public class DivisaoTest {
         Divisao divisao = new Divisao();
         double resultado = divisao.calcula("4","2");
         assertEquals(2.0, resultado);
-
     }
 
     @Test
