@@ -13,7 +13,6 @@ public class SubtracaoTest {
         double resultado = subtracao.calcula("4","2");
         assertEquals(2.0, resultado);
     }
-
     @Test
     public void verificarSubtracaoDouble(){
 
