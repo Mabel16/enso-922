@@ -21,5 +21,4 @@ public class MultiplicacaoTest {
         double resultado = multiplicacao.calcula("5.2","2");
         assertEquals(10.4, resultado);
     }
-    
 }
